@@ -144,3 +144,15 @@ TARGET_PER_MGR_ENABLED := true
 EXTENDED_FONT_FOOTPRINT := true
 
 -include vendor/lge/bullhead/BoardConfigVendor.mk
+
+
+# MultiROM config
+MR_INPUT_TYPE := type_a
+MR_INIT_DEVICES := device/lge/bullhead/mr_init_devices.c
+#MR_RD_ADDR :=
+MR_DPI := xhdpi
+MR_DPI_MUL := 1.5 # for xhdpi
+MR_DPI_FONT := 340 # Stealing value from hammerhead - adjust if it's shit
+MR_FSTAB := device/lge/bullhead/twrp.fstab
+MR_KEXEC_MEM_MIN := 
+MR_INFOS := device/lge/bullhead/mrom_infos
