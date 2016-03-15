@@ -154,5 +154,5 @@ MR_DPI := xhdpi
 MR_DPI_MUL := 1.5 # for xhdpi
 MR_DPI_FONT := 340 # Stealing value from hammerhead - adjust if it's shit
 MR_FSTAB := device/lge/bullhead/twrp.fstab
-MR_KEXEC_MEM_MIN := 
+MR_KEXEC_MEM_MIN := 0x02000000
 MR_INFOS := device/lge/bullhead/mrom_infos
